@@ -8,6 +8,15 @@ a .raw volume file with an .nhdr description file and a .raw volume file with th
 ## OUTPUT: 
 Visualization of the functional segments in different colors. The volume (in cm3) of the segmented organ.
 
+## To run:
+- try to run the .exe files in LiverSegments\bin
+
+## To compile:
+- there is a VS2010_project folder that contains the respective Visual Studio solution files
+- open the *.sln file
+- verify the includes and links in the project.
+- new executable files will be created in <project_name>\bin
+
 ## Step-by-step for the included dataset (dataset 1)
 1. run LiverSegments.exe
 2. click Volume->Open
@@ -25,6 +34,10 @@ Visualization of the functional segments in different colors. The volume (in cm3
 ## Limitations and known bugs:
 - Save Vessels Imgs 2D and Save Segm Imgs 2D are buggy
 - Select volume button '-' is not working as planned
+
+## OBS
+We used Windows 7 64bit and MS Visual Studio 2010. 
+A shader supported graphics card is necessary. We used an Nvidia Geforce 9600GT, but many other models should work fine. Binaries last tested in a Core i7 and nVidia GTX 1050
 
 
 Good luck! :-)
