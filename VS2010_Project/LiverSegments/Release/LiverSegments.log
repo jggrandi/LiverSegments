@@ -1,0 +1,31 @@
+﻿Build started 06/11/2013 12:06:05.
+     1>Project "G:\Hepat\projects\LiverSegments\VS2010_Project\LiverSegments\LiverSegments.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\LiverSegments.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\includes\dirent /I..\..\..\includes\glew\include /I..\..\..\includes\shared\include /I..\..\..\includes\boost_1_34_0 /I"..\..\..\includes\teem-1.8.0-win32\include" /I..\..\..\includes\AntTweakBar\include /I..\..\..\includes /I..\..\..\includes\glut /Z7 /nologo /W1 /WX- /MP /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\LiverSegments\main.cpp ..\..\LiverSegments\SimpleMeasure.cpp ..\..\LiverSegments\Volume.cpp ..\..\LiverSegments\VolumeArray.cpp
+         main.cpp
+         SimpleMeasure.cpp
+         Volume.cpp
+         VolumeArray.cpp
+         Unknown compiler version - please run the configure tests and report the results
+         Unknown compiler version - please run the configure tests and report the results
+         Unknown compiler version - please run the configure tests and report the results
+         Unknown compiler version - please run the configure tests and report the results
+     1>g:\hepat\projects\liversegments\liversegments\volume.cpp(171): warning C4715: 'Volume::GetData' : not all control paths return a value
+     1>g:\hepat\projects\liversegments\liversegments\volume.cpp(198): warning C4715: 'Volume::SetTexture' : not all control paths return a value
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Hepat\projects\LiverSegments\VS2010_Project\..\bin\LiverSegments.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\includes\Glew\lib /LIBPATH:..\..\..\includes\glut /LIBPATH:"..\..\..\includes\teem-1.8.0-win32\lib\shared" /LIBPATH:..\..\..\includes\AntTweakBar\lib /LIBPATH:..\..\..\includes\glu /LIBPATH:..\..\..\includes\shared\Release opengl32.lib glut32.lib glu32.lib glew32.lib bz2.lib png.lib teem.lib z.lib AntTweakBar.lib SharedLibs.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /PDB:"G:\Hepat\projects\LiverSegments\bin\LiverSegments.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"G:\Hepat\projects\LiverSegments\VS2010_Project\..\bin\LiverSegments.lib" /MACHINE:X86 Release\main.obj
+         Release\SimpleMeasure.obj
+         Release\Volume.obj
+         Release\VolumeArray.obj
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+         LiverSegments.vcxproj -> G:\Hepat\projects\LiverSegments\VS2010_Project\..\bin\LiverSegments.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\LiverSegments.unsuccessfulbuild".
+         Touching "Release\LiverSegments.lastbuildstate".
+     1>Done Building Project "G:\Hepat\projects\LiverSegments\VS2010_Project\LiverSegments\LiverSegments.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.41
